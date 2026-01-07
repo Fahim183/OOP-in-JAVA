@@ -1,0 +1,19 @@
+class Person {
+    void speak() {
+        System.out.println("Person speaks");
+    }
+}
+
+class Teacher extends Person {
+    void teach() {
+        System.out.println("Teacher teaches");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Teacher t = new Teacher();
+        t.speak();
+        t.teach();
+    }
+}
